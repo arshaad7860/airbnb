@@ -1,0 +1,17 @@
+projects:
+  airbnbclone:
+    schemaPath: >-
+      C:/Users/Mohamed/OneDrive/Desktop/MyReactStuff/Mobile/Airbnb/airbnb/graphql/schema.json
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: >-
+          C:/Users/Mohamed/OneDrive/Desktop/MyReactStuff/Mobile/Airbnb/airbnb/graphql
+extensions:
+  amplify:
+    version: 3
